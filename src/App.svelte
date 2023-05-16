@@ -1,13 +1,17 @@
+<!-- App.svelte -->
 <script>
   import Home from './components/Home.svelte';
-  import Showcase from './components/Showcase.svelte';
-  import About from './components/About.svelte';
-  import Skills from './components/Skills.svelte';
-  import Contact from './components/Contact.svelte';
 </script>
 
-<Home />
-<Showcase />
-<About />
-<Skills />
-<Contact />
+<main>
+  <Home />
+</main>
+
+<style>
+  main {
+    text-align: center;
+    padding: 1em;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+</style>
